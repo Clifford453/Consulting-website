@@ -1,0 +1,187 @@
+* {
+  background-color: #ffffff;
+  border: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  display: flexbox;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+header h1 {
+  padding-bottom: 25px;
+  font-weight: lighter;
+  padding-left: 20px;
+  font-size: 30px;
+  margin: 40px;
+  margin-left: 6%;
+}
+header h1 strong {
+  color: #346f6d;
+  font-weight: bolder;
+}
+nav {
+  position: absolute;
+  width: 100%;
+}
+.industry {
+  text-decoration: none;
+  padding-bottom: 40px;
+  font-weight: lighter;
+  padding-left: 40px;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+
+  float: right;
+  top: -100px;
+  left: 920px;
+}
+.industry::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 40px;
+  right: 0;
+  bottom: 40px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.industry:hover::after {
+  width: 78%;
+}
+.consulting {
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  top: -100px;
+  left: 1130px;
+}
+.consulting::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.consulting:hover::after {
+  width: 100%;
+}
+.research {
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  top: -100px;
+  left: 1330px;
+}
+.research::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.research:hover::after {
+  width: 100%;
+}
+.about {
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  top: -100px;
+  left: 1500px;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.about:hover::after {
+  width: 100%;
+}
+.contact {
+  text-decoration: none;
+  font-weight: lighter;
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+  top: -100px;
+  left: 1620px;
+}
+.contact::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+.contact:hover::after {
+  width: 100%;
+}
+.section1 {
+  margin: 40px;
+  padding-top: 8vh;
+  padding-left: 5vw;
+  font-size: 140px;
+  display: block;
+  width: 50%;
+  color: #4a4a4e;
+}
+.sectionimg {
+  display: block;
+  top: 25vh;
+  right: 150px;
+  display: flex;
+  position: absolute;
+  width: 470px;
+  max-inline-size: 100%;
+}
+.full-width-section {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-top: -50px;
+  overflow: hidden;
+  padding-top: 70px;
+}
+.full-width-section img {
+  width: 100%;
+  height: 500px;
+  display: block;
+  object-fit: cover;
+}
